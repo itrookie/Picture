@@ -39,7 +39,7 @@ public class GlideImageLoader implements ImageLoader {
 
                     @Override
                     public Request getRequest() {
-                        return (Request) imageView.getTag(R.id.adapter_item_tag_key);
+                        return (Request) imageView.getTag(R.id.adapter_item_tag_key) ;
                     }
                 });
     }
